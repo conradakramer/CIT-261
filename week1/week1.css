@@ -1,0 +1,19 @@
+form{
+    padding: 10px;
+    background-color: darkgray;
+
+    max-width: 400px;
+    margin: auto;
+
+}
+input,textarea{
+    width: 98%;
+    display: block;
+}
+
+P{
+    color: black;
+}
+label{
+
+}
