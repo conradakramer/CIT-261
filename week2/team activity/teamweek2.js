@@ -9,8 +9,6 @@ function onbuttonclick() {
     }
     else {
         text = func2(text);
-
-        
     }
     document.getElementById("emptydiv").innerHTML = text;
 }
