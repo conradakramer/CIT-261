@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Todo List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="page-header">ToDos</header>
+            <article class="page-body">
+                <ul id="todoList" >
+                    <li>stuff</li>
+                    <li class="checked">
+                        <input type="checkbox"id="check"> more stuff to do</li>
+                </ul>
+            </article>
+            <footer class="page-footer">
+                    <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Add Todo" aria-label="Recipient's username"id="addtolist" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="button"id="addButton">Add</button>
+                              
+                            </div>
+                          </div>
+ 
+            </footer>
+        </div>
+        <script src="todo.js" async defer></script>
+    </body>
+</html>
